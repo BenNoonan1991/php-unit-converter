@@ -8,4 +8,16 @@ echo $pounds;
 echo " lb = ";
 echo $kilograms;
 echo " kg";
+
+$miles = 1;
+$miles_to_km = 1.60934;
+$kilometers = $miles * $miles_to_km;
+
+echo "\n";
+echo "Distance: ";
+echo $miles;
+echo " miles = ";
+echo $kilometers;
+echo " km";
+
 ?>
